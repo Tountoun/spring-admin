@@ -1,0 +1,15 @@
+server:
+  port: 9070
+
+
+spring:
+  application:
+    name: Spring Boot apps management and monitoring app
+
+  boot:
+    admin:
+      ui:
+        title: Monitor & Manager
+        brand: <img src="assets/img/icon-spring-boot-admin.svg"><span>Apps Manager</span>
+
+      context-path: /manager
